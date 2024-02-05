@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C558856D2B70834E00D8F4F5 /* ToneTrekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558856C2B70834E00D8F4F5 /* ToneTrekApp.swift */; };
+		C558856F2B70834E00D8F4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558856E2B70834E00D8F4F5 /* ContentView.swift */; };
+		C55885712B70834F00D8F4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55885702B70834F00D8F4F5 /* Assets.xcassets */; };
+		C55885742B70834F00D8F4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55885732B70834F00D8F4F5 /* Preview Assets.xcassets */; };
+		C558857E2B70834F00D8F4F5 /* ToneTrekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558857D2B70834F00D8F4F5 /* ToneTrekTests.swift */; };
+		C55885882B70834F00D8F4F5 /* ToneTrekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55885872B70834F00D8F4F5 /* ToneTrekUITests.swift */; };
+		C558858A2B70834F00D8F4F5 /* ToneTrekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55885892B70834F00D8F4F5 /* ToneTrekUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C558857A2B70834F00D8F4F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55885612B70834E00D8F4F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55885682B70834E00D8F4F5;
+			remoteInfo = ToneTrek;
+		};
+		C55885842B70834F00D8F4F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55885612B70834E00D8F4F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55885682B70834E00D8F4F5;
+			remoteInfo = ToneTrek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C55885692B70834E00D8F4F5 /* ToneTrek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToneTrek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C558856C2B70834E00D8F4F5 /* ToneTrekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneTrekApp.swift; sourceTree = "<group>"; };
+		C558856E2B70834E00D8F4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C55885702B70834F00D8F4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55885732B70834F00D8F4F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C55885792B70834F00D8F4F5 /* ToneTrekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneTrekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C558857D2B70834F00D8F4F5 /* ToneTrekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneTrekTests.swift; sourceTree = "<group>"; };
+		C55885832B70834F00D8F4F5 /* ToneTrekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneTrekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55885872B70834F00D8F4F5 /* ToneTrekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneTrekUITests.swift; sourceTree = "<group>"; };
+		C55885892B70834F00D8F4F5 /* ToneTrekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneTrekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55885662B70834E00D8F4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55885762B70834F00D8F4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55885802B70834F00D8F4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55885602B70834E00D8F4F5 = {
+			isa = PBXGroup;
+			children = (
+				C558856B2B70834E00D8F4F5 /* ToneTrek */,
+				C558857C2B70834F00D8F4F5 /* ToneTrekTests */,
+				C55885862B70834F00D8F4F5 /* ToneTrekUITests */,
+				C558856A2B70834E00D8F4F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C558856A2B70834E00D8F4F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55885692B70834E00D8F4F5 /* ToneTrek.app */,
+				C55885792B70834F00D8F4F5 /* ToneTrekTests.xctest */,
+				C55885832B70834F00D8F4F5 /* ToneTrekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C558856B2B70834E00D8F4F5 /* ToneTrek */ = {
+			isa = PBXGroup;
+			children = (
+				C558856C2B70834E00D8F4F5 /* ToneTrekApp.swift */,
+				C558856E2B70834E00D8F4F5 /* ContentView.swift */,
+				C55885702B70834F00D8F4F5 /* Assets.xcassets */,
+				C55885722B70834F00D8F4F5 /* Preview Content */,
+			);
+			path = ToneTrek;
+			sourceTree = "<group>";
+		};
+		C55885722B70834F00D8F4F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C55885732B70834F00D8F4F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C558857C2B70834F00D8F4F5 /* ToneTrekTests */ = {
+			isa = PBXGroup;
+			children = (
+				C558857D2B70834F00D8F4F5 /* ToneTrekTests.swift */,
+			);
+			path = ToneTrekTests;
+			sourceTree = "<group>";
+		};
+		C55885862B70834F00D8F4F5 /* ToneTrekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C55885872B70834F00D8F4F5 /* ToneTrekUITests.swift */,
+				C55885892B70834F00D8F4F5 /* ToneTrekUITestsLaunchTests.swift */,
+			);
+			path = ToneTrekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55885682B70834E00D8F4F5 /* ToneTrek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C558858D2B70834F00D8F4F5 /* Build configuration list for PBXNativeTarget "ToneTrek" */;
+			buildPhases = (
+				C55885652B70834E00D8F4F5 /* Sources */,
+				C55885662B70834E00D8F4F5 /* Frameworks */,
+				C55885672B70834E00D8F4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToneTrek;
+			productName = ToneTrek;
+			productReference = C55885692B70834E00D8F4F5 /* ToneTrek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55885782B70834F00D8F4F5 /* ToneTrekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55885902B70834F00D8F4F5 /* Build configuration list for PBXNativeTarget "ToneTrekTests" */;
+			buildPhases = (
+				C55885752B70834F00D8F4F5 /* Sources */,
+				C55885762B70834F00D8F4F5 /* Frameworks */,
+				C55885772B70834F00D8F4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C558857B2B70834F00D8F4F5 /* PBXTargetDependency */,
+			);
+			name = ToneTrekTests;
+			productName = ToneTrekTests;
+			productReference = C55885792B70834F00D8F4F5 /* ToneTrekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C55885822B70834F00D8F4F5 /* ToneTrekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55885932B70834F00D8F4F5 /* Build configuration list for PBXNativeTarget "ToneTrekUITests" */;
+			buildPhases = (
+				C558857F2B70834F00D8F4F5 /* Sources */,
+				C55885802B70834F00D8F4F5 /* Frameworks */,
+				C55885812B70834F00D8F4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55885852B70834F00D8F4F5 /* PBXTargetDependency */,
+			);
+			name = ToneTrekUITests;
+			productName = ToneTrekUITests;
+			productReference = C55885832B70834F00D8F4F5 /* ToneTrekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55885612B70834E00D8F4F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C55885682B70834E00D8F4F5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C55885782B70834F00D8F4F5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C55885682B70834E00D8F4F5;
+					};
+					C55885822B70834F00D8F4F5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C55885682B70834E00D8F4F5;
+					};
+				};
+			};
+			buildConfigurationList = C55885642B70834E00D8F4F5 /* Build configuration list for PBXProject "ToneTrek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55885602B70834E00D8F4F5;
+			productRefGroup = C558856A2B70834E00D8F4F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55885682B70834E00D8F4F5 /* ToneTrek */,
+				C55885782B70834F00D8F4F5 /* ToneTrekTests */,
+				C55885822B70834F00D8F4F5 /* ToneTrekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55885672B70834E00D8F4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55885742B70834F00D8F4F5 /* Preview Assets.xcassets in Resources */,
+				C55885712B70834F00D8F4F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55885772B70834F00D8F4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55885812B70834F00D8F4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55885652B70834E00D8F4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558856F2B70834E00D8F4F5 /* ContentView.swift in Sources */,
+				C558856D2B70834E00D8F4F5 /* ToneTrekApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55885752B70834F00D8F4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558857E2B70834F00D8F4F5 /* ToneTrekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C558857F2B70834F00D8F4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558858A2B70834F00D8F4F5 /* ToneTrekUITestsLaunchTests.swift in Sources */,
+				C55885882B70834F00D8F4F5 /* ToneTrekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C558857B2B70834F00D8F4F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55885682B70834E00D8F4F5 /* ToneTrek */;
+			targetProxy = C558857A2B70834F00D8F4F5 /* PBXContainerItemProxy */;
+		};
+		C55885852B70834F00D8F4F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55885682B70834E00D8F4F5 /* ToneTrek */;
+			targetProxy = C55885842B70834F00D8F4F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C558858B2B70834F00D8F4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C558858C2B70834F00D8F4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C558858E2B70834F00D8F4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToneTrek/Preview Content\"";
+				DEVELOPMENT_TEAM = 327NT76N89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMCIndustries.ToneTrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C558858F2B70834F00D8F4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToneTrek/Preview Content\"";
+				DEVELOPMENT_TEAM = 327NT76N89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMCIndustries.ToneTrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C55885912B70834F00D8F4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 327NT76N89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMCIndustries.ToneTrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToneTrek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToneTrek";
+			};
+			name = Debug;
+		};
+		C55885922B70834F00D8F4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 327NT76N89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMCIndustries.ToneTrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToneTrek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToneTrek";
+			};
+			name = Release;
+		};
+		C55885942B70834F00D8F4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 327NT76N89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMCIndustries.ToneTrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToneTrek;
+			};
+			name = Debug;
+		};
+		C55885952B70834F00D8F4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 327NT76N89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMCIndustries.ToneTrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToneTrek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55885642B70834E00D8F4F5 /* Build configuration list for PBXProject "ToneTrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C558858B2B70834F00D8F4F5 /* Debug */,
+				C558858C2B70834F00D8F4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C558858D2B70834F00D8F4F5 /* Build configuration list for PBXNativeTarget "ToneTrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C558858E2B70834F00D8F4F5 /* Debug */,
+				C558858F2B70834F00D8F4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55885902B70834F00D8F4F5 /* Build configuration list for PBXNativeTarget "ToneTrekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55885912B70834F00D8F4F5 /* Debug */,
+				C55885922B70834F00D8F4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55885932B70834F00D8F4F5 /* Build configuration list for PBXNativeTarget "ToneTrekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55885942B70834F00D8F4F5 /* Debug */,
+				C55885952B70834F00D8F4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55885612B70834E00D8F4F5 /* Project object */;
+}
